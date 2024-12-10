@@ -1,0 +1,61 @@
+/* common share style code */
+
+
+.text_primary{
+    color: #FD6E0A;
+}
+
+.btn_primary{
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 30px;
+
+}
+
+/* nav related code */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.nav_title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
